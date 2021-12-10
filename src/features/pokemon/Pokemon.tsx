@@ -1,5 +1,6 @@
-import React from "react";
-import { useGetPokemonByNameQuery } from "./pokemonSlice";
+import React from 'react';
+
+import { useGetPokemonByNameQuery } from './pokemonSlice';
 
 function Pokemon({ name }: { name: string }) {
   const { data = [], error, isLoading } = useGetPokemonByNameQuery(name);

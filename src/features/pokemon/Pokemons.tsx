@@ -1,7 +1,8 @@
-import React, { useState } from "react";
-import Pokemon from "./Pokemon";
+import React, { useState } from 'react';
 
-const pokemons: Array<string> = ["pikachu", "ditto", "bulbasaur", "mewtwo"];
+import Pokemon from './Pokemon';
+
+const pokemons: Array<string> = ['pikachu', 'ditto', 'bulbasaur', 'mewtwo'];
 
 function Pokemons() {
   return (
